@@ -43,4 +43,4 @@ cfssljson --version
 
 <img width="571" alt="image" src="https://user-images.githubusercontent.com/49937302/183536770-50b1e9bc-780f-4230-bf93-5c53102062c0.png">
 
-cfssljson --version
+
