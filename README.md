@@ -7,14 +7,13 @@
 - cfssl
 - cfssljson
 
-Configure aws CLI
+# Configure aws CLI
 
 aws configure sso
 
 <img width="841" alt="image" src="https://user-images.githubusercontent.com/49937302/183536918-d19063fe-a05b-49a3-891b-7c607a3633e5.png">
 
-
-Install kubectl
+# Install kubectl
 
 curl -o kubectl https://storage.googleapis.com/kubernetes-release/release/v1.21.0/bin/darwin/amd64/kubectl
 
@@ -22,7 +21,7 @@ chmod +x kubectl
 
 sudo mv kubectl /usr/local/bin/
 
-Install CFSSL and CFSSLJSON
+# Install CFSSL and CFSSLJSON
 
 cfssl is an open source tool by Cloudflare used to setup a Public Key Infrastructure (PKI Infrastructure) for generating, signing and bundling TLS certificates. cfssl will be configured as a Certificate Authority which will issue the certificates required to spin up a Kubernetes cluster.
 
